@@ -348,6 +348,7 @@ body {
   color: var(--gold-bright);
 }
 .download-meta { font-size: 0.8rem !important; color: #6b675e !important; }
+.download-btns { display: flex; gap: 0.9rem; flex-wrap: wrap; flex-shrink: 0; }
 .download-btn { flex-shrink: 0; }
 
 /* Contact */
