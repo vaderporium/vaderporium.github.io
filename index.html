@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaderporium — Fantasy &amp; Renaissance 3D Assets, Art &amp; Merch</title>
+<meta name="description" content="Vaderporium: original 3D asset packs, 2D art, and merchandise. Shop our stores on Etsy, Shopify, Fiverr and Printify — and follow our open-world game in production.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-mark">V</span>
+    <span class="brand-name">VADERPORIUM</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#showcase">Showcase</a>
+    <a href="#news">News</a>
+    <a href="#stores">Stores</a>
+    <a href="#game">The Game</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+  <button class="nav-burger" id="navBurger" aria-label="Menu">&#9776;</button>
+</header>
+
+<!-- ============ HERO SLIDESHOW ============ -->
+<section class="hero" id="showcase">
+  <div class="slides" id="slides">
+
+    <!-- Big news slide (first) -->
+    <article class="slide slide-news active" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/hero-news.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">BIG NEWS</span>
+        <h1>The Renaissance Pack Has Arrived</h1>
+        <p>Ten production-ready Renaissance models — tempietti, loggias, Tuscan kitchens — join the Fantasy Pack in the Vaderporium catalog. FBX, OBJ &amp; GLB with full PBR textures.</p>
+        <div class="slide-actions">
+          <a class="btn btn-primary" href="#stores">Shop the packs</a>
+          <a class="btn btn-ghost" href="#news">Read the announcement</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Product slides (populated pattern; static HTML for no-JS fallback) -->
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/stone-watchtower.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">FANTASY PACK</span>
+        <h2>Stone Watchtower</h2>
+        <p>Crenellated modular tower with arched windows — PBR stone-block textures, game-ready.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/woodland-cottage.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">FANTASY PACK</span>
+        <h2>Woodland Cottage Kitchen</h2>
+        <p>Warm oak interior set for village scenes and NPC homes.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/wolf-drinking-horn.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">FANTASY PACK</span>
+        <h2>Wolf-Head Drinking Horn</h2>
+        <p>Hero prop on display stand — perfect for taverns, loot and quest rewards.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/wanderer-campfire.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">FANTASY PACK</span>
+        <h2>Wanderer's Campfire</h2>
+        <p>Camp kit with bedrolls, tripod and provisions for roadside encounters.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/floating-spellbook.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">FANTASY PACK</span>
+        <h2>Floating Spellbook Shelf</h2>
+        <p>Leather-bound arcane storage for wizard towers and alchemist shops.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/tempietto.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">RENAISSANCE PACK</span>
+        <h2>Tempietto</h2>
+        <p>Marble-domed classical shrine with colonnade — the pack's centerpiece.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/studiolo-bookcase.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">RENAISSANCE PACK</span>
+        <h2>Studiolo Bookcase</h2>
+        <p>Walnut scholar's shelving with LODs for performance-conscious scenes.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/cortile-loggia.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">RENAISSANCE PACK</span>
+        <h2>Cortile Loggia</h2>
+        <p>Travertine courtyard arcade with well, lanterns and plants.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/cathedra.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">RENAISSANCE PACK</span>
+        <h2>Cathedra</h2>
+        <p>Velvet-trimmed ceremonial seat — thrones, councils and audience halls.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+    <article class="slide" data-slide>
+      <div class="slide-bg" style="background-image:url('assets/products/tuscan-kitchen.png')"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-kicker">RENAISSANCE PACK</span>
+        <h2>Tuscan Kitchen</h2>
+        <p>Terracotta-floored working kitchen with fireplace, racks and provisions.</p>
+        <div class="slide-actions"><a class="btn btn-primary" href="#stores">Get this asset</a></div>
+      </div>
+    </article>
+
+  </div>
+
+  <button class="slide-nav prev" id="slidePrev" aria-label="Previous slide">&#10094;</button>
+  <button class="slide-nav next" id="slideNext" aria-label="Next slide">&#10095;</button>
+  <div class="slide-dots" id="slideDots"></div>
+</section>
+
+<!-- ============ NEWS ============ -->
+<section class="section" id="news">
+  <h2 class="section-title">Latest from the Forge</h2>
+  <div class="news-grid">
+    <article class="news-card news-card--big">
+      <span class="news-date">November 2026</span>
+      <h3>Renaissance Pack v1 launches — 10 new models</h3>
+      <p>Our second asset pack is live: ten Renaissance-themed models in FBX, OBJ and GLB with full PBR texture sets. Tempietto, Cortile Loggia, Tuscan Kitchen and more — built for Unity, Unreal and Godot.</p>
+    </article>
+    <article class="news-card">
+      <span class="news-date">November 2026</span>
+      <h3>Vaderporium store rollout begins</h3>
+      <p>Listings are going up across Etsy, Shopify and our print-on-demand partners. Fiverr gig pages for custom asset commissions open soon.</p>
+    </article>
+    <article class="news-card">
+      <span class="news-date">In production</span>
+      <h3>DoTell: open-world game in active development</h3>
+      <p>Our own game project — an open world with living NPC gossip and a world that adapts to your behavior — is being built with these very assets.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ STORES ============ -->
+<section class="section section--alt" id="stores">
+  <h2 class="section-title">Find Us Everywhere</h2>
+  <p class="section-sub">Assets, art, merch and commissions — pick your marketplace.</p>
+  <div class="store-grid">
+    <a class="store-card" href="https://www.etsy.com/" target="_blank" rel="noopener">
+      <span class="store-name">Etsy</span>
+      <span class="store-desc">Digital assets, art prints &amp; physical merch</span>
+    </a>
+    <a class="store-card" href="https://www.shopify.com/" target="_blank" rel="noopener">
+      <span class="store-name">Shopify</span>
+      <span class="store-desc">Our flagship store — full catalog</span>
+    </a>
+    <a class="store-card" href="https://www.fiverr.com/" target="_blank" rel="noopener">
+      <span class="store-name">Fiverr</span>
+      <span class="store-desc">Custom 3D assets, 2D art &amp; web dev commissions</span>
+    </a>
+    <a class="store-card" href="https://www.printify.com/" target="_blank" rel="noopener">
+      <span class="store-name">Printify</span>
+      <span class="store-desc">Print-on-demand shirts, mugs &amp; more</span>
+    </a>
+    <a class="store-card" href="https://assetstore.unity.com/" target="_blank" rel="noopener">
+      <span class="store-name">Unity Asset Store</span>
+      <span class="store-desc">Engine-ready packs (coming soon)</span>
+    </a>
+    <a class="store-card" href="https://www.artstation.com/" target="_blank" rel="noopener">
+      <span class="store-name">ArtStation</span>
+      <span class="store-desc">Portfolio &amp; marketplace listings (coming soon)</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ GAME TAB ============ -->
+<section class="section" id="game">
+  <h2 class="section-title">The Game: <span class="accent">DoTell</span></h2>
+  <div class="game-wrap">
+    <div class="game-text">
+      <p class="game-lede">An open world that listens. NPCs who talk about you behind your back.</p>
+      <p>DoTell is our in-house game project: an open-world adventure built on a custom engine with a living social simulation. NPCs gossip — word of your deeds (and failures) travels from village to village, prices shift, doors open, and grudges stick. Quest performance and campaign choices reshape the world's factions, rumor economy and how strangers greet you.</p>
+      <ul class="game-features">
+        <li><strong>Open world</strong> with a notable, hand-crafted tutorial</li>
+        <li><strong>Gossip system</strong> — NPCs exchange rumors about the player</li>
+        <li><strong>Adaptive world</strong> — reacts to behavior, quests &amp; campaign activity</li>
+        <li><strong>Built with Vaderporium assets</strong> — everything in the store is battle-tested in our own scenes</li>
+      </ul>
+    </div>
+    <div class="game-art">
+      <img src="assets/hero-news.png" alt="DoTell world concept art">
+    </div>
+  </div>
+
+  <!-- Tester build download -->
+  <div class="download-card">
+    <div class="download-info">
+      <span class="slide-kicker">TESTER BUILD</span>
+      <h3>DoTell — subBeta (Windows)</h3>
+      <p>The current tester build: flashback-memories tutorial, Chapter 1 at the university, the Sundered Runic Vault and more. Unzip anywhere and run <code>dotell_subBeta.exe</code> — keep the <code>.pck</code> beside it. Needs a Vulkan-capable GPU. Full notes and controls are in the included README.</p>
+      <p class="download-meta">Build of 24 Nov 2026 &middot; Windows 64-bit &middot; .zip archive &middot; please don't redistribute</p>
+    </div>
+    <a class="btn btn-primary download-btn" href="downloads/dotell_subBeta_windows_2026-11-24.zip" download>Download the subBeta</a>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--alt" id="contact">
+  <h2 class="section-title">Contact the Forge</h2>
+  <p class="section-sub">Commissions, asset questions, licensing or DoTell tester feedback — we read everything.</p>
+  <div class="contact-wrap">
+    <form class="contact-form" action="https://formsubmit.co/vaderporium@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Vaderporium.com contact form">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <label>
+        <span>Your name</span>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        <span>Your email</span>
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        <span>Topic</span>
+        <select name="topic">
+          <option>Asset purchase / support</option>
+          <option>Custom commission</option>
+          <option>DoTell tester feedback</option>
+          <option>Licensing / business</option>
+          <option>Something else</option>
+        </select>
+      </label>
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Send message</button>
+    </form>
+    <div class="contact-aside">
+      <h3>Prefer email?</h3>
+      <p>Write to us directly:</p>
+      <a class="contact-mail" href="mailto:vaderporium@gmail.com">vaderporium@gmail.com</a>
+      <p class="contact-note">The form forwards straight to this inbox. We usually reply within two business days.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <span class="brand-name">VADERPORIUM</span>
+      <p>Original 3D assets, 2D art, merch &amp; development services.<br>vaderporium.com &middot; <a href="mailto:vaderporium@gmail.com">vaderporium@gmail.com</a></p>
+    </div>
+    <div class="footer-links">
+      <a href="#showcase">Showcase</a>
+      <a href="#stores">Stores</a>
+      <a href="#game">The Game</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; 2026 Vaderporium. All assets original works.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# DoTell tester build — 5.3 GB, hosted externally (itch.io/Drive), not in the repo
+downloads/
+
+# Temp files
+*.tmp
+*.log
+__pycache__/
